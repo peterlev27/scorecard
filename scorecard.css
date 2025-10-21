@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Timer-font";
+    src: url("Timer-font.ttf");
+}
+
+body {
+    margin: 300px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.scorecard-container {
+    display: flex;
+    background: rgb(18, 29, 66);
+    background-image: url("bg.png");
+    background-position: right;
+    background-size: cover;
+    background-blend-mode: hard-light;
+    padding: 30px 50px;
+    border-radius: 30px;
+    border: 10px solid rgb(218, 218, 218)
+}
+
+.scorecard-home {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+    width: 150px;
+}
+
+.scorecard-guest {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+    width: 150px;
+}
+
+#home-score {
+    font-size: 80px;
+    margin: 0;
+    background: black;
+    border: 3px solid rgb(227, 239, 255);
+    color: red;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Timer-font;
+    padding: 20px 0 0 0;
+}
+
+.home-points {
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    margin: 0 auto 10px auto;
+    letter-spacing: 2px;
+}
+
+#guest-score {
+    font-size: 80px;
+    margin: 0;
+    background: black;
+    border: 3px solid rgb(227, 239, 255);
+    color: red;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: Timer-font;
+    padding: 20px 0 0 0;
+}
+
+.guest-points {
+    margin: 20px auto;
+}
+
+#home1, #home2, #home3, #guest1, #guest2, #guest3 {
+    padding: 10px;
+    font-size: 16px;
+    background: none;
+    border: 1px solid rgb(206, 206, 206);
+    color: rgb(235, 235, 235);
+    margin: 0 2px;
+    border-radius: 4px;
+    font-family: Timer-font;
+    text-shadow: 2px 1px 3px black;
+}
+
+#signature {
+    color: white;
+    text-align: right;
+    margin: 0px 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}

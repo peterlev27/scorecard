@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scorecard.css">
+</head>
+<body>
+    <div class ="scorecard-container">
+        <div class = "scorecard-home">
+            <h2>HOME</h2>
+            <p id="home-score">0</p>
+            <div class="home-points">
+                <button id="home1" onclick="addPointsHome1()">+1</button>
+                <button id="home2" onclick="addPointsHome2()">+2</button>
+                <button id="home3" onclick="addPointsHome3()">+3</button>
+            </div>
+        </div>
+
+        <div class="scorecard-guest">
+            <h2>GUEST</h2>
+            <p id="guest-score">0</p>
+            <div class="guest-points">
+                <button id="guest1" onclick="addPointsGuest1()">+1</button>
+                <button id="guest2" onclick="addPointsGuest2()">+2</button>
+                <button id="guest3" onclick="addPointsGuest3()">+3</button> 
+            </div>
+            <p id="signature">Scorecard by Lev</p>
+        </div>
+
+
+        
+
+    </div>
+
+
+    <script src="scorecard.js"></script>
+</body>
+</html>
