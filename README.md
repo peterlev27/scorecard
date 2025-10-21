@@ -1,1 +1,1 @@
-Visit my Scorecard here: (index.html)
+Visit my Scorecard here: (scorecard.html)
